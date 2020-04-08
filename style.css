@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Proza+Libre:wght@500&display=swap');
+
+body {
+    font-family: 'Proza Libre', sans-serif;
+    font-family: 'Athiti', sans-serif ;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 6px 40px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.goto-link{
+    margin-right: 1rem;
+}
+
+.goto-link a {
+    color: red;
+
+}
+
+.goto-link a:hover {
+    background-color: black;
+}
